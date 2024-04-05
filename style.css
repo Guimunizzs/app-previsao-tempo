@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMTk4MDI3Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.main-container {
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  width: 95%;
+  max-width: 450px;
+}
+
+.input-city {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: #ffff;
+  width: calc(100% - 100px);
+}
+
+.botao-buscar {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.img-busca {
+  width: 20px;
+}
+
+.caixa-media {
+  margin-top: 20px;
+}
+.cidade {
+  color: #ffff;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 20px;
+  color: #ffff;
+  margin-top: 20px;
+}
+
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.texto-previsao {
+  color: #ffff;
+  margin-left: 20px;
+}
+
+.umidade {
+  color: #ffff;
+  margin-top: 20px;
+}
